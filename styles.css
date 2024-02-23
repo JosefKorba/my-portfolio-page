@@ -1,0 +1,51 @@
+:root {
+  --bg-color: #151515;
+  --dark-color: #242424;
+  --font-color: #fff;
+  --light-color: #f5bc00;
+}
+
+html {
+  font-size: 1rem;
+}
+
+body {
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-color: var(--bg-color);
+  color: var(--font-color);
+  max-width: 63rem;
+}
+
+h1 {
+    font-size: 5.5rem;
+}
+
+.header__name{
+    font-size: 2rem;
+}
+
+.header__navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  list-style-type: none;
+}
+
+.navigation__link {
+  margin-right: 1.25rem;
+}
+
+
+.header__about{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 40rem;
+    
+}
+
