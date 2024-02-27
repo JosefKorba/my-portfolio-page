@@ -11,6 +11,7 @@ html {
 
 body {
   margin: 0 auto;
+  padding: 0 20px;
   box-sizing: border-box;
   background-color: var(--bg-color);
   color: var(--font-color);
@@ -28,6 +29,8 @@ h2 {
 h3 {
   font-size: 1.5rem;
 }
+
+/* HEADER*/
 .header__name {
   font-size: 2rem;
 }
@@ -54,9 +57,10 @@ h3 {
   width: 40rem;
 }
 
+/* MAIN */ 
 .main__technologies-list {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(300px,  1fr));
   gap: 10px;
   list-style-type: none;
 }
@@ -71,7 +75,78 @@ h3 {
 }
 
 .project img {
-  width: 540px;
-  height: 400px;
+  width:  100%;
+  height: auto;
   border-radius: 20px;
+}
+
+/* MEDIA Q */
+@media (max-width:  768px) {
+  .header__about {
+    width:  100%;
+    text-align: center;
+  }
+  .main__projects {
+    grid-template-columns:  1fr;
+  }
+  .project img {
+    width:  100%;
+    height: auto;
+  }
+}
+
+@media (max-width:  768px) {
+  h1 {
+    font-size:  3.5rem;
+  }
+  h2 {
+    font-size:  2rem;
+  }
+  h3 {
+    font-size:  1.5rem;
+  }
+  .header__name {
+    font-size:  1.5rem;
+  }
+  .main__technologies-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px,  1fr));
+
+  }
+  .description {
+    text-align: center;
+  }   
+}
+
+@media (max-width:  680px) {
+  .header__navigation {
+    flex-direction: column;
+  }
+  .navigation__link {
+    margin-bottom:  1rem;
+  }
+  
+}
+
+
+
+@media (max-width:  490px) {
+  h1 {
+    font-size:  3rem;
+  }
+  h2 {
+    font-size:  1.5rem;
+  }
+  h3 {
+    font-size:  1.3rem;
+  }
+  .header__name {
+    font-size:  1.5rem;
+  }
+
+  .main__technologies-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px,  1fr));
+}
+
 }
