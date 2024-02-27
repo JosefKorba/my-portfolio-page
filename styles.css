@@ -14,15 +14,22 @@ body {
   box-sizing: border-box;
   background-color: var(--bg-color);
   color: var(--font-color);
-  max-width: 63rem;
+  max-width: 70rem;
 }
 
 h1 {
-    font-size: 5.5rem;
+  font-size: 5.5rem;
 }
 
-.header__name{
-    font-size: 2rem;
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+.header__name {
+  font-size: 2rem;
 }
 
 .header__navigation {
@@ -40,12 +47,31 @@ h1 {
   margin-right: 1.25rem;
 }
 
-
-.header__about{
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    width: 40rem;
-    
+.header__about {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 40rem;
 }
 
+.main__technologies-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  list-style-type: none;
+}
+
+.main__projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.project {
+  overflow: hidden;
+}
+
+.project img {
+  width: 540px;
+  height: 400px;
+  border-radius: 20px;
+}
