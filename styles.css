@@ -6,20 +6,18 @@
 }
 
 html {
-  font-size: 1rem;
+  box-sizing: border-box;
 }
 
 body {
   margin: 0 auto;
-  padding: 0 20px;
-  box-sizing: border-box;
   background-color: var(--bg-color);
   color: var(--font-color);
-  max-width: 70rem;
+  font-size: 1rem;
 }
 
 h1 {
-  font-size: 5.5rem;
+  font-size: 4.5rem;
 }
 
 h2 {
@@ -33,6 +31,13 @@ h3 {
 
 p {
   font-size: 1.3rem;
+}
+
+header,
+main {
+  max-width: 70rem;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 /* HEADER*/
@@ -82,13 +87,11 @@ p {
 .main__technologies-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  
+
   list-style-type: none;
   justify-content: center;
   align-items: center;
 }
-
-
 
 .main__projects {
   display: grid;
@@ -103,6 +106,23 @@ p {
   width: 100%;
   height: auto;
   border-radius: 20px;
+}
+/* FOOTER */
+.footer {
+  background-color: #242424;
+  padding-bottom: 10rem;
+  border-top: 0.0625rem solid var(--light-color);
+}
+
+.footer__heading {
+  padding-top: 4rem;
+  margin: 0;
+}
+
+.footer__nav,
+.footer__heading {
+  display: flex;
+  justify-content: center;
 }
 
 /* MEDIA Q */
@@ -154,7 +174,6 @@ p {
   .navigation__link {
     margin-bottom: 1rem;
   }
-  
 }
 
 @media (max-width: 490px) {
@@ -171,6 +190,8 @@ p {
     font-size: 1.5rem;
   }
 }
+
+/* HOVER */
 
 a {
   position: relative;
