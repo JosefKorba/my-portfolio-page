@@ -93,12 +93,12 @@ main {
   align-items: center;
 }
 
-.main__projects {
+.main__projects-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
-.project {
+.main__project {
   overflow: hidden;
 }
 
@@ -116,7 +116,7 @@ main {
 
 .footer__heading {
   padding-top: 4rem;
-  margin: 0;
+  
 }
 
 .footer__nav,
