@@ -41,7 +41,7 @@ main {
   padding: 0 20px;
 }
 
-/* HEADER*/
+/******************** HEADER **************/
 .header__name {
   font-size: 2rem;
 }
@@ -80,11 +80,12 @@ main {
 }
 
 .header__about-link {
+  font-size: 1.5rem;
   color: var(--font-color);
   text-decoration: none;
 }
 
-/* MAIN */
+/*************************** MAIN ***************/
 .main__technologies-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -107,7 +108,7 @@ main {
   height: auto;
   border-radius: 20px;
 }
-/* FOOTER */
+/*************** FOOTER *******************/
 .footer {
   background-color: var(--dark-color);
   padding-bottom: 10rem;
@@ -116,7 +117,6 @@ main {
 
 .footer__heading {
   padding-top: 4rem;
-  
 }
 
 .footer__nav,
@@ -125,13 +125,13 @@ main {
   justify-content: center;
 }
 
-/* MEDIA Q */
+/***************************** MEDIA Q *****/
 @media (max-width: 768px) {
   .header__about {
     width: 100%;
     text-align: center;
   }
-  .main__projects {
+  .main__projects-container {
     grid-template-columns: 1fr;
   }
   .main-projects-img {
@@ -154,7 +154,7 @@ main {
     font-size: 1.5rem;
   }
 
-  .description {
+  .main__description {
     text-align: center;
   }
 
@@ -191,7 +191,7 @@ main {
   }
 }
 
-/* HOVER */
+/************ HOVER **************/
 
 a {
   position: relative;
