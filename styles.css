@@ -36,7 +36,7 @@ p {
 
 header,
 main {
-  max-width: 70rem;
+  max-width: 80rem;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -91,7 +91,9 @@ main {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   justify-content: center;
   align-items: center;
+  margin-bottom: 3.75rem;
 }
+
 
 .main__projects-container {
   display: grid;
@@ -114,7 +116,6 @@ main {
   color: rgb(149, 140, 238);
   text-decoration: none;
   margin-right: 10px;
- 
 }
 /*************** FOOTER *******************/
 .footer {
@@ -166,10 +167,10 @@ main {
     text-align: center;
   }
 
-  .main_technology {
+  .main__technologies-list {
     color: #d9d9d9;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     height: 100%;
   }
