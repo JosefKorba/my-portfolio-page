@@ -89,7 +89,6 @@ main {
 .main__technologies-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-
   justify-content: center;
   align-items: center;
 }
@@ -101,12 +100,21 @@ main {
 }
 .main__project {
   overflow: hidden;
+  margin: .6rem 0;
 }
 
 .main-projects-img {
   width: 100%;
   height: auto;
-  border-radius: 20px;
+  border-radius: 6px;
+}
+
+.main__project-link{
+  font-size: 1.5rem;
+  color: rgb(149, 140, 238);
+  text-decoration: none;
+  margin-right: 10px;
+ 
 }
 /*************** FOOTER *******************/
 .footer {
