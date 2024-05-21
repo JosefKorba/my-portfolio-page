@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
-    <title>My-portfolio</title>
+    <title>JK-portfolio</title>
     <script
       src="https://kit.fontawesome.com/3ea53e8d74.js"
       crossorigin="anonymous"
@@ -19,18 +19,17 @@
   <body>
     <header>
       <nav class="header__navigation">
-        <h2 class="header__name">lorem ipsum</h2>
-        <ul class="navigation">
+        <ul class="header__navigation-list">
           <li>
             <a class="navigation__link" href="https://github.com/JosefKorba" target="_blank" rel="noopener noreferrer"
               ><img src="/images/icons/icon-github.svg" alt="Github icon"
             /></a>
           </li>
-          <li>
+          <!-- <li>
             <a class="navigation__link" href="#" target="_blank" rel="noopener noreferrer"
               ><img src="/images/icons/icon-linkedin.svg" alt="Linkedin icon"
             /></a>
-          </li>
+          </li> -->
           <li>
             <a class="navigation__link" href="#" target="_blank" rel="noopener noreferrer"
               ><img src="/images/icons/icon-cv.svg" alt="CV icon"
@@ -39,18 +38,15 @@
         </ul>
       </nav>
       <section class="header__about">
-        <h1>Josef Korba</h1>
+        <h1>JOSEF KORBA</h1>
         <h2 class="header__about-heading">
           <span>Junior</span> Frontend Developer
         </h2>
         <p class="header__about-description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-          delectus mollitia nesciunt architecto cupiditate ducimus eos adipisci
-          ut ab. Tenetur nihil possimus repellendus aliquid ipsum illo tempore
-          quam nemo quasi.
+          I am a self taught Frontend Developer with a passion for creating. I am always looking for new challenges and opportunities to learn and improve my skills. I am currently looking for a Junior Frontend Developer position. 
         </p>
         <div class="header__about-contact">
-          <a class="header__about-link" href="#">
+          <a class="header__about-link" href="#contact">
             <img src="/images/icons/icon-contact.svg" alt="Contact me icon" />CONTACT ME</a
           >
         </div>
@@ -65,8 +61,8 @@
           <li class="main_technology"><p>CSS</p></li>
           <li class="main_technology"><p>JAVASCRIPT</p></li>
           <li class="main_technology"><p>REACT</p></li>
-          <li class="main_technology"><p>TAILWIND</p></li>
           <li class="main_technology"><p>GIT</p></li>
+          <li class="main_technology"><p>FIGMA</p></li>
         </ul>
       </section>
       <hr />
@@ -74,83 +70,65 @@
       <section class="main__projects-container">
         <article class="main__project">
           <img
-            class="main-projects-img"
-            src="/images/thumbnail-project-1-small.webp"
+            class="main__projects-img"
+            src="/images/thumbnails/thumbnail-e-commerce.webp"
             alt="Project Thumbnail"
           />
-          <h3>lorem ipsum</h3>
+          <h3>E-commerce-website</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus
-            quisquam, ad nam sed possimus inventore vero ut officia magni
-            voluptatibus incidunt rem quae fugit, hic excepturi. Nemo vero saepe
-            quo.
+            E-commerce website using React for dynamic data loading and React Router for navigation. Additionally, CSS Modules were used for styling and Vite for faster builds. The e-commerce website was created based on a design from the Figma application.
           </p>
-          <a class="main__project-link" href="#">View project</a>
-          <a class="main__project-link" href="#">View code</a>
+          <nav class="main__project-links">
+            <a class="main__project-link" href="https://e-commerce-audiophile.netlify.app/" target="_blank" rel="noopener noreferrer">View project</a>
+            <a class="main__project-link" href="https://github.com/JosefKorba/e-commerce-website" target="_blank" rel="noopener noreferrer">View code</a>
+          </nav>
         </article>
         <article class="main__project">
           <img
-            class="main-projects-img"
-            src="/images/thumbnail-project-4-small.webp"
+            class="main__projects-img"
+            src="/images/thumbnails/thumbnail-pokedex.webp"
             alt="Project Thumbnail"
           />
-          <h3>lorem ipsum</h3>
+          <h3>Pokedex</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus
-            quisquam, ad nam sed possimus inventore vero ut officia magni
-            voluptatibus incidunt rem quae fugit, hic excepturi. Nemo vero saepe
-            quo.
+            This project is an interactive web application that uses HTML and CSS for styling, and JavaScript for dynamically loading and processing data from an external API (PokeAPI). The application allows users to search for Pokémon by name and displays information about them on interactive cards.
           </p>
-          <a class="main__project-link" href="#">View project</a>
-          <a class="main__project-link" href="#">View code</a>
+          <nav class="main__project-links">
+          <a class="main__project-link" href="https://pokedex-pkmn.netlify.app/" target="_blank" rel="noopener noreferrer">View project</a>
+          <a class="main__project-link" href="https://github.com/JosefKorba/pokedex" target="_blank" rel="noopener noreferrer">View code</a>
+          </nav>
         </article>
         <article class="main__project">
           <img
-            class="main-projects-img"
-            src="/images/thumbnail-project-5-small.webp"
+            class="main__projects-img"
+            src="/images/thumbnails/thumbnail-portfolio.webp"
             alt="Project Thumbnail"
           />
-          <h3>lorem ipsum</h3>
+          <h3>My portfolio page</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus
-            quisquam, ad nam sed possimus inventore vero ut officia magni
-            voluptatibus incidunt rem quae fugit, hic excepturi. Nemo vero saepe
-            quo.
+            This is the current Portfolio Webpage you are viewing. It is a static web page that follows the HTML, CSS and BEM methodology for a structured and maintainable codebase. The site is designed with an emphasis on responsiveness and uses media queries.
           </p>
-          <a class="main__project-link" href="#">View project</a>
-          <a class="main__project-link" href="#">View code</a>
-        </article>
-        <article class="main__project">
-          <img
-            class="main-projects-img"
-            src="/images/thumbnail-project-6-small.webp"
-            alt="Project Thumbnail"
-          />
-          <h3>lorem ipsum</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus
-            quisquam, ad nam sed possimus inventore vero ut officia magni
-            voluptatibus incidunt rem quae fugit, hic excepturi. Nemo vero saepe
-            quo.
-          </p>
-          <a class="main__project-link" href="#">View project</a>
-          <a class="main__project-link" href="#">View code</a>
+          <nav class="main__project-links">
+          <a class="main__project-link" href="https://github.com/JosefKorba/my-portfolio-page" target="_blank" rel="noopener noreferrer">View code</a>
+          </nav>
         </article>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer" id="contact">
       <h1 class="footer__heading">Contacts</h1>
       <section class="footer__nav">
         <a class="navigation__link" href="https://github.com/JosefKorba" target="_blank"
           ><img src="/images/icons/icon-github.svg" alt="Github icon" target="_blank" rel="noopener noreferrer"
         /></a>
-        <a class="navigation__link" href="#" target="_blank" rel="noopener noreferrer"
-          ><img src="/images/icons/icon-linkedin.svg" alt="Linkedin icon"
-        /></a>
+       <!-- <a class="navigation__link" href="#" target="_blank" rel="noopener noreferrer" -->
+          <!-- ><img src="/images/icons/icon-linkedin.svg" alt="Linkedin icon" -->
+        <!-- /></a> -->
         <a class="navigation__link" href="#" target="_blank" rel="noopener noreferrer"
           ><img src="/images/icons/icon-cv.svg" alt="CV icon"
         /></a>
       </section>
+        <p class="footer__email">test@seznam.cz</p>
+        <p class="footer__phone">+420 123 456 789</p>
     </footer>
   </body>
 </html>
