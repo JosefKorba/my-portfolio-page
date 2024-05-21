@@ -9,5 +9,5 @@ This project was built using the following technologies:
 [![My Skills](https://skillicons.dev/icons?i=html,css,git)](https://skillicons.dev)
 
 - **HTML**
-- **CSS - BEM** 
-- **Responsive design - Media Queries**
+- **CSS** - BEM 
+- **Responsive design** - Media Queries
